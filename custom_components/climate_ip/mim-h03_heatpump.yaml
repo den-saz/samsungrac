@@ -26,7 +26,6 @@ device:
       values:
         cool: { value : 'Opmode_Cool', connection: { params: { json: { "Operation": { "power" : "On" }, "Mode": { "modes": ["Opmode_Cool"] } } } } }
         heat: { value : 'Opmode_Heat', connection: { params: { json: { "Operation": { "power" : "On" }, "Mode": { "modes": ["Opmode_Heat"] } } } } }
-        'off': { value: 'Off', connection: { params: { json: { "Operation": { "power" : "Off" } } } } }
         auto: { value : 'Opmode_Auto', connection: { params: { json: { "Operation": { "power" : "On" }, "Mode": { "modes": ["Opmode_Auto"] } } } } }
         heat_cool: { value : 'Opmode_Auto', connection: { params: { json: { "Operation": { "power" : "On" }, "Mode": { "modes": ["Opmode_Auto"] } } } } }
         fan_only: { value : 'Opmode_Fan', connection: { params: { json: { "Operation": { "power" : "On" }, "Mode": { "modes": ["Opmode_Fan"] } } } } }
