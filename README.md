@@ -77,6 +77,7 @@ https://github.com/SebuZet/samsungrac
     | device_id | Set the device for controllers like MIM-H03, which can control multiple air con units | No. Strongly recommended for MIM-H03. Defaults to `032000000`
     | debug      | Enable/disable more debugs. Default: False | No
 2. You need to have your device __token__. I will create a guide to gather it
+Note: For MIM-H03: press the `AP` button once** on the MIM-H03 to trigger the device token callback.
 3. If you're using MIM-H03, you may need your device ID, this can be had by running the following command and select your aircon device. It might be device `0`.
 ```sh
 curl -k -H "Content-Type: application/json" -H "Authorization: Bearer __DEVICE_TOKEN__" --cert ac14k_m.pem -X GET https://__CLIMATE_IP_HOST__:8888/devices/
